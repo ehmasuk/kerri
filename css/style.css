@@ -1,0 +1,111 @@
+
+html{
+    scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+.navbar{
+  background: rgb(38, 40, 43);
+  color:#fff !important;
+}
+.navbar a{
+  font-weight: bold;
+  color:#ffffff !important;
+}
+.cover {
+  background: linear-gradient(rgba(38, 40, 43, 0.8),rgba(38, 40, 43, 0.8)),url('../img/bg1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.welcome {
+  font-size: 2vw;
+  margin-top: 4vw;
+}
+.middle-pera {
+  font-size: 4vw;
+}
+.cv-button {
+  margin: 8vw 0px;
+}
+
+.fab:hover {
+}
+.headings {
+  color: white;
+  font-weight: bold;
+}
+/* services section */
+#service_section .col-lg-4{
+  cursor: pointer;
+}
+.servis-box {
+  background-color: #26282b;
+  margin-top: -50px;
+}
+#service_section hr {
+  width: 40px;
+  height: 2px;
+  background-color: red;
+  margin: auto;
+  transition: .3s;
+}
+#service_section .col-lg-4:hover hr{
+  width: 80px;
+}
+.card {
+  background-color: #26282b;
+  border: 1px solid grey;
+}
+.bg-bg{
+    background-color: #343A40;
+}
+.bg-bg-bg{
+  background-color: #26282b;
+}
+.bod{
+    z-index: 3;
+}
+/* about-section */
+#about_section img{
+  max-height: 450px;
+}
+#portfolio_section button{
+  font-weight: bold;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: none;
+}
+.anchor-imagers{
+  cursor: pointer;
+  transition: 0.3s;
+}
+.anchor-imagers:hover{
+  transform: translateY(-10px);
+}
+input,textarea{
+  background-color:#26282b !important;
+  box-shadow: none !important;
+  border: 2px solid #3b3e42!important;
+}
+input:focus,textarea:focus{
+  border: 2px solid #BD2130 !important;
+  
+}
+.footer{
+  min-height: 200px;
+}
+.footer-anchors{
+  padding: 10px 16px;
+  border-radius: 50%;
+  
+}
+.black_color{
+  background-color: black;
+}
+.mixitup-control-active{
+  background-color: #BD2130;
+}
